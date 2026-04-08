@@ -28,11 +28,11 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - aarch64_generic
-          - mips_24kc
-          - mipsel_24kc
-          - x86_64
-          - x86_generic
+          *- aarch64_generic
+          *- mips_24kc
+          *- mipsel_24kc
+          *- x86_64
+          - i386_pentium-mmx
           
         sdk:
           - 22.03.7
