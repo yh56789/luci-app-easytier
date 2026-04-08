@@ -29,10 +29,10 @@ jobs:
       matrix:
         arch:
           - aarch64_generic
-          - arm_xscale
           - mips_24kc
           - mipsel_24kc
           - x86_64
+          - x86_generic
           
         sdk:
           - 22.03.7
