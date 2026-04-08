@@ -28,7 +28,7 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - i386_pentium-mmx
+          - x86-generic
           #- aarch64_generic
           #- mips_24kc
           #- mipsel_24kc
